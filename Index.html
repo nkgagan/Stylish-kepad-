@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stylish Font Keypad</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Stylish Font Keypad</h1>
+    <p>Type • Convert • Copy • Paste Anywhere</p>
+</header>
+
+<section class="container">
+    <textarea id="inputText" placeholder="Type your text here..."></textarea>
+
+    <div class="buttons">
+        <button onclick="convertFont('bold')">Bold</button>
+        <button onclick="convertFont('italic')">Italic</button>
+        <button onclick="convertFont('cursive')">Cursive</button>
+        <button onclick="convertFont('small')">Small Caps</button>
+    </div>
+
+    <textarea id="outputText" placeholder="Stylish text will appear here..." readonly></textarea>
+
+    <button class="copyBtn" onclick="copyText()">Copy Text</button>
+
+    <a href="#" class="downloadBtn">⬇ Download Android App</a>
+</section>
+
+<footer>
+    <p>© 2025 Stylish Font Keypad | Made with ❤️</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
